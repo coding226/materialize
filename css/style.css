@@ -1,0 +1,100 @@
+
+body {
+    color: #566787;
+    background: #f5f5f5;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 13px;
+}
+.btn{
+    text-transform: capitalize;
+}
+.section{
+    background:#fff;
+    margin-top: 60px;
+}
+.card-wrap {
+    margin: 15px;
+    border: 2px solid #d2cece;
+    padding: 20px 15px;
+    background: #f3f3f3;
+}
+.new-btn{
+    text-transform: capitalize;
+    margin-right: 30px;
+}
+.table-data,.comments{
+    display: none;
+}
+.table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    color: #212529;
+}
+.select-wrapper input.select-dropdown {
+    color: #fff !important;;
+    background-color: #6c757d !important;
+    border-color: #6c757d !important;;
+    border: 1px !important;;
+    padding: 0px 15px !important;;
+    box-sizing: border-box !important;;
+    border-radius: 5px !important;;
+}
+.select-wrapper .caret {
+    z-index: 9;
+    fill: rgba(255,255,255,0.87);
+}
+table.table tr th, table.table tr td {
+    border-color: #e9e9e9;
+    padding: 12px 15px;
+    vertical-align: middle;
+}
+table.table tr th:last-child {
+    width: 100px;
+}
+table.table tr th:first-child {
+    width: 250px;
+}
+.approval-section{
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.context-card{
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+
+
+
+
+.card-wrap.active {
+    background: #ffffff;
+    border-color: #FFFFFF;
+}
+.card-wrap.active .table-data,.card-wrap.active .comments{
+    display: block;
+}
+.card-wrap.active .approval-section{
+    margin-bottom: 10px;
+}
+.card-wrap.active .context-card{
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+}
+@media only screen and (min-width: 601px) {
+    .container {
+        width: 85%;
+    }
+}
+@media only screen and (min-width: 993px) {
+    .container {
+        width: 80%;
+    }
+}
