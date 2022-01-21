@@ -145,3 +145,19 @@ table.table tr th:first-child {
         width: 80%;
     }
 }
+.row .col.m12 .btn{
+    z-index: 6 !important;
+}
+td.waves-effect{z-index: 9 !important; overflow: initial !important;}
+td .select-wrapper input.select-dropdown {
+    color: #fff !important;
+    background-color: #26a69a !important;
+    border-color: #26a69a !important;
+    border: 1px !important;
+    padding: 0px 15px !important;
+    box-sizing: border-box !important;
+    border-radius: 3px !important;
+    margin: 0;
+    height: 2.5rem !important;
+    width: 75px !important;
+}
